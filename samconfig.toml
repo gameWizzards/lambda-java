@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "optimal-java"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-g2tsq86x8ail"
+s3_prefix = "optimal-java"
+region = "eu-central-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
